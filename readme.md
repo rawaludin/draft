@@ -6,6 +6,7 @@ I love Laravel. But, starting a new project is always a paint for me as I do so 
 
 ### Configuration
  - I use homestead for development. You should too.
+ - I use mandrill for email, if you want then get Mandrill API keys.
  - Copy `.env.example.php` to `.env.local.php` for local environment OR to `.env.php` for production environment.
  - Set your database in `app/config/database.php` or `app/config/local/database.php` for local environment.
  - Run migration.
