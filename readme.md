@@ -2,7 +2,7 @@
 ![Draft Poster](https://dl.dropboxusercontent.com/u/57978373/draft.png)
 
 ## Why
-I love Laravel. But, starting a new project is always a paint for me as I do so much repetitive work. CMS is also is not a solution for me. This repository stand for boilerplate when starting a fresh Laravel project. It will be filled with example (working) source code for basic app functionality.
+I love Laravel. But, starting a new project is always a paint for me as I do so much repetitive work. CMS is also not a solution for me. This repository stand for boilerplate when starting a fresh Laravel project. It will be filled with example (working) source code for basic app functionality.
 
 ### Configuration
  - I use homestead for development. You should too.
