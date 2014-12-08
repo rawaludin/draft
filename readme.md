@@ -4,6 +4,8 @@
 ## Why
 I love Laravel. But, starting a new project is always a paint for me as I do so much repetitive work. CMS is also not a solution for me. This repository stand for boilerplate when starting a fresh Laravel project. It will be filled with example (working) source code for basic app functionality.
 
+Anyway, **its under development**. You have been warned.
+
 ### Configuration
  - I use homestead for development. You should too.
  - I use mandrill for email, if you want then get Mandrill API keys.
