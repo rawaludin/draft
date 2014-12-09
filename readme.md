@@ -18,6 +18,7 @@ Anyway, **its under development**. You have been warned.
 
 ## Feature
 - Bootstrap 3 based.
+- Bower powered frontend dependencies management.
 - [Zizaco/Confide](https://github.com/zizaco/confide) powered user authentication solution.
 - [Zizaco/Entrust](https://github.com/zizaco/entrust) powered ACL. Not everybody need it. Sometimes its overkill, feel free to roll out your own solution.
 - Gravatar Integration for profile image.

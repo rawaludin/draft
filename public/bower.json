@@ -1,0 +1,9 @@
+{
+  "name": "draft",
+  "version": "0.1",
+  "dependencies": {
+    "bootstrap": "3.3.*",
+    "datatables": "1.10.*"
+  },
+  "private": true
+}
