@@ -9,7 +9,7 @@ Anyway, **its under development**. You have been warned.
 ### Configuration
  - Run `composer install` first.
  - I use homestead for development. You should too.
- - I use mandrill for email, if you want then get Mandrill API keys.
+ - I use mandrill for email. If you want, then get [Mandrill API keys](http://mandrillapp.com).
  - Copy `.env.example.php` to `.env.local.php` for local environment OR to `.env.php` for production environment.
  - Set your database in `app/config/database.php` or `app/config/local/database.php` for local environment.
  - Run migration.
@@ -23,3 +23,10 @@ Anyway, **its under development**. You have been warned.
 
 ## Request
 You may request feature [here](https://github.com/rahmatawaludin/draft/issues)
+
+## Contribute
+You can contribute to this repository in several ways:
+
+- Post an idea [here](https://github.com/rahmatawaludin/draft/issues)
+- Design frontend frontend (UI stuff)
+- Other ways, coming soon..
