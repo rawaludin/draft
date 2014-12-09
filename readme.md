@@ -10,6 +10,7 @@ Anyway, **its under development**. You have been warned.
  - Run `composer install` first.
  - I use homestead for development. You should too.
  - I use mandrill for email. If you want, then get [Mandrill API keys](http://mandrillapp.com).
+ - I use [bower](http://bower.io) for frontend dependencies. If you haven't please install it. To install frontend dependencies, go to `public` folder then run `bower install`.
  - Copy `.env.example.php` to `.env.local.php` for local environment OR to `.env.php` for production environment.
  - Set your database in `app/config/database.php` or `app/config/local/database.php` for local environment.
  - Run migration.
