@@ -11,23 +11,6 @@
 |
 */
 
-Route::group(array('before' => 'auth'), function()
-{
-	// confide logout
-	Route::get('users/logout', 'UsersController@logout');
-
-    Route::get('user/profile', function()
-    {
-        return 'halo';
-    });
-});
-
-Route::get('/', function()
-{
-	if (Auth::check()) return View::make('dashboard');
-	return View::make('hello');
-});
-
 // Confide routes
 Route::group(array('before' => 'guest'), function()
 {
@@ -41,4 +24,24 @@ Route::group(array('before' => 'guest'), function()
 	Route::get('users/reset_password/{token}', 'UsersController@resetPassword');
 	Route::post('users/reset_password', 'UsersController@doResetPassword');
 });
+
+Route::group(array('before' => 'auth'), function()
+{
+	// confide logout
+	Route::get('users/logout', 'UsersController@logout');
+
+    // All controller in app\controllers\admin folder
+    Route::group(array('namespace' => 'Draft\Controllers\Admin', 'prefix' => 'admin'), function()
+	{
+	    Route::resource('users', 'UsersController');
+	});
+
+});
+
+Route::get('/', function()
+{
+	if (Auth::check()) return View::make('dashboard');
+	return View::make('hello');
+});
+
 
