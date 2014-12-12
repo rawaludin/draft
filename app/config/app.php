@@ -124,6 +124,7 @@ return array(
 		'Zizaco\Confide\ServiceProvider',
 		'Zizaco\Entrust\EntrustServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
+		'Chumper\Datatable\DatatableServiceProvider',
 
 	),
 

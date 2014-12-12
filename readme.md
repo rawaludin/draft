@@ -30,6 +30,7 @@ You may request feature [here](https://github.com/rahmatawaludin/draft/issues)
 ## Contribute
 You can contribute to this repository in several ways:
 
+- Work out our [todo here](https://github.com/rahmatawaludin/draft/issues?q=is%3Aopen+is%3Aissue+label%3Atodo)
 - Post an idea [here](https://github.com/rahmatawaludin/draft/issues)
 - Design frontend frontend (UI stuff)
 - Other ways, coming soon..

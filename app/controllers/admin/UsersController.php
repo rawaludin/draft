@@ -1,9 +1,7 @@
 <?php
 namespace Draft\Controllers\Admin;
-use Illuminate\Routing\Controller;
-use Illuminate\Support\Facades\View;
 
-class UsersController extends Controller {
+class UsersController extends \Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -13,7 +11,19 @@ class UsersController extends Controller {
 	 */
 	public function index()
 	{
-		return View::make('admin.users.index');
+		if( \Datatable::shouldHandle() )
+	    {
+	        return \Datatable::collection(\User::all(array('id','username')))
+	            ->showColumns('id', 'username')
+	            ->addColumn('role', function ($model) {
+	            	return 'Admin';
+	            })
+	            ->searchColumns('username')
+	            ->orderColumns('username')
+	            ->make();
+	    }
+		return \View::make('admin.users.index');
+
 	}
 
 	/**

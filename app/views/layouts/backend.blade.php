@@ -9,6 +9,13 @@
     <!-- Bootstrap -->
     <link href="{{ asset('components/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
 
+    <!-- Datatable -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('components/datatables/media/css/jquery.dataTables.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/bootstrap/3/dataTables.bootstrap.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{{ asset('components/jquery/dist/jquery.min.js') }}"></script>
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -50,9 +57,11 @@
       @yield('content')
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="{{ asset('components/jquery/dist/jquery.min.js') }}"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ asset('components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <!-- Datatable -->
+    <script type="text/javascript" src="{{ asset('components/datatables/media/js/jquery.dataTables.min.js') }}"></script>
+    <script type="text/javascript" src="http://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+
   </body>
 </html>

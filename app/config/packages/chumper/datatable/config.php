@@ -93,7 +93,7 @@ return array(
         |
         */
 
-        'table_view' => 'datatable::template',
+        'table_view' => 'datatables.basic',
 
 
         /*
